@@ -1,0 +1,392 @@
+/* custom theme css start */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: b;
+  src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\\(1\).ttf);
+}
+
+@font-face {
+  font-family: c;
+  src: url(./KFOmCnqEu92Fr1Mu4mxK\\(1\).ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Jost";
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 320;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+span {
+  display: inline;
+}
+
+h1 {
+  font-size: 12rem;
+  font-weight: 320;
+  line-height: 12.5rem;
+}
+h2 {
+  font-size: 8rem;
+  font-weight: 320;
+  line-height: 8.5rem;
+}
+.h2 {
+  font-size: 8rem;
+  font-weight: 320;
+  line-height: 8.5rem;
+  line-height: 9.4rem;
+}
+h3 {
+  font-size: 6rem;
+  font-weight: 320;
+  line-height: 6rem;
+}
+h4 {
+  font-size: 4.6rem;
+  font-weight: 320;
+  line-height: 4.5rem;
+}
+h5 {
+  font-size: 3rem;
+  font-weight: 320;
+  line-height: 3.5rem;
+}
+h6 {
+  font-size: 2.4rem;
+  font-weight: 320;
+}
+
+.txt-22 {
+  font-size: 2.2rem;
+}
+
+.txt-20 {
+  font-size: 2rem;
+}
+
+.txt-18 {
+  font-size: 1.8rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-justify-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-align-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-justify-align-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-bit {
+  justify-content: space-between;
+}
+
+.flex-space-bit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.align-start {
+  align-items: start;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.w-100 {
+  width: 100vw;
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  padding: 0 9%;
+}
+
+/* custom theme css end */
+
+#main {
+  position: relative;
+  overflow: hidden;
+  background-color: #1137ca;
+}
+
+#main::-webkit-scrollbar-thumb {
+  background: #fff !important;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+}
+
+.btn {
+  font-size: 1.9rem;
+  padding: 1.5rem 5rem;
+  background-color: #fff;
+  font-weight: 400;
+  border-radius: 5rem;
+  color: #1137ca;
+  text-transform: uppercase;
+}
+
+.btn-border {
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  border: 0.01rem solid #fff;
+  font-weight: 320;
+  border-radius: 5rem;
+}
+
+/*  navbar css start */
+
+.nav {
+  padding: 3rem 8rem;
+  position: relative;
+  z-index: 9;
+}
+
+.nav .nav-logo {
+  width: 6rem;
+}
+
+.nav .nav-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav .menu-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  height: 4.8rem;
+  justify-content: center;
+}
+
+.menu-toggle div {
+  width: 2rem;
+  background: #fff;
+  height: 1px;
+  border-radius: 5rem;
+}
+
+/* hero section css start */
+
+div#hero-section {
+  position: relative;
+  top: -11.5rem;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 9%;
+  padding-bottom: 4.7%;
+  padding-right: 2%;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.hero-content {
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem 0;
+}
+
+.hero-caption h6 {
+  width: 55%;
+}
+
+/* hero section css end */
+
+/* page3 css start */
+
+#page3 {
+  position: relative;
+  background-color: #0a3cce;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 9%;
+}
+
+#page3 p:first-child {
+  margin-bottom: 3.6rem;
+}
+
+#page3 .h2 {
+  color: #9e9e9e67;
+}
+
+/* page 4 css */
+
+#page4 canvas,
+#page6 canvas {
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+}
+
+/* page 5 css */
+
+#page5,
+#page7 {
+  position: relative;
+  background-color: #0a3cce;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 9%;
+}
+
+#page5 p:first-child,
+#page7 p:first-child {
+  margin-bottom: 3.6rem;
+}
+
+#page5 .h2,
+#page7 .h2 {
+  color: #9e9e9e67;
+}
+
+/* page 8 css start */
+
+#page8 {
+  position: relative;
+}
+
+@media screen and (max-width: 1800px) {
+  html {
+    font-size: 50.5%;
+  }
+}
