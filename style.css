@@ -385,6 +385,28 @@ div#hero-section {
   position: relative;
 }
 
+#page8 .page-8-cir {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30vw;
+  height: 30vw;
+  color: transparent;
+  border: 1px solid #fff;
+  transform: translate(-50%, -50%);
+  border-radius: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-8-circle-inner {
+  height: 70%;
+  width: 70%;
+  border-radius: 100%;
+  border: 1px solid #fff;
+}
+
 @media screen and (max-width: 1800px) {
   html {
     font-size: 50.5%;
