@@ -466,6 +466,45 @@ div#hero-section {
   margin-bottom: 50px;
 }
 
+/* page11 */
+
+#page11 {
+  padding: 100px 0;
+}
+
+#page11 .container {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+#page11 .container::-webkit-scrollbar {
+  display: none;
+}
+
+#page11 h2 {
+  font-size: 10rem;
+  margin-bottom: 35%;
+}
+
+.dtt-details {
+  gap: 100px;
+}
+
+.dtt-details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dtt-details > div span {
+  font-size: 2rem;
+}
+
+.dtt-details > div p {
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 1800px) {
   html {
     font-size: 50.5%;
