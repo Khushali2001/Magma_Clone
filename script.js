@@ -56,7 +56,7 @@ gsap.to("#page3>.h2>span", {
     start: `top bottom`,
     end: `bottom top`,
     scroller: `#main`,
-    scrub: 0.5,
+    scrub: 2,
   },
   stagger: 0.2,
   color: `#fff`,
@@ -634,7 +634,8 @@ gsap.to(".page-8-cir", {
     scrub: 0.5,
   },
   // backgroundColor: "#0a3bce91",
-  scale: 1.3,
+  width: "600px",
+  height: "600px",
 });
 
 gsap.to(".page-8-circle-inner", {
